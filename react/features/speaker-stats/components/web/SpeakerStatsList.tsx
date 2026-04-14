@@ -23,7 +23,7 @@ const useStyles = makeStyles()(theme => {
                 },
                 '& .time': {
                     padding: '2px 4px',
-                    borderRadius: '4px',
+                    borderRadius: '12px',
                     ...theme.typography.labelBold,
                     [theme.breakpoints.down(MOBILE_BREAKPOINT)]: {
                         ...theme.typography.bodyShortRegularLarge

@@ -56,7 +56,7 @@ import Thumbnail from './Thumbnail';
 import ThumbnailWrapper from './ThumbnailWrapper';
 
 
-const BACKGROUND_COLOR = 'rgba(51, 51, 51, .5)';
+const BACKGROUND_COLOR = 'rgba(30, 41, 59, .6)';
 const TOUCH_DEVICE_PADDING = {
     paddingLeft: `${TOUCH_DRAG_HANDLE_PADDING}px`,
     paddingRight: `${TOUCH_DRAG_HANDLE_PADDING}px`,
@@ -99,7 +99,7 @@ function styles(theme: Theme, props: IProps) {
             width: '32px',
             height: '24px',
             position: 'absolute' as const,
-            borderRadius: '4px',
+            borderRadius: '12px',
             top: 'calc(-24px - 2px)',
             left: 'calc(50% - 16px)',
             opacity: 0,

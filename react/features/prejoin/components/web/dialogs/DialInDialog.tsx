@@ -57,7 +57,7 @@ const useStyles = makeStyles()(theme => {
             },
             '& .prejoin-dialog-dialin-num': {
                 background: '#3e474f',
-                borderRadius: '4px',
+                borderRadius: '12px',
                 display: 'inline-block',
                 fontSize: '1rem',
                 lineHeight: '1.5rem',

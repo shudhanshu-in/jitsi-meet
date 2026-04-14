@@ -283,7 +283,7 @@ const defaultStyles = (theme: Theme) => {
 
         indicatorsBackground: {
             backgroundColor: 'rgba(0, 0, 0, 0.7)',
-            borderRadius: '4px',
+            borderRadius: '12px',
             display: 'flex',
             alignItems: 'center',
             maxWidth: '100%',
@@ -304,7 +304,7 @@ const defaultStyles = (theme: Theme) => {
             left: 0,
             height: '100%',
             width: '100%',
-            borderRadius: '4px',
+            borderRadius: '12px',
             backgroundColor: theme.palette.thumbnailBackground
         },
 
@@ -313,7 +313,7 @@ const defaultStyles = (theme: Theme) => {
             width: '100%',
             height: '100%',
             zIndex: 9,
-            borderRadius: '4px',
+            borderRadius: '12px',
             pointerEvents: 'none' as const
         },
 

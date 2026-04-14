@@ -49,7 +49,7 @@ const useStyles = makeStyles()(theme => {
         },
         barContainer: {
             backgroundColor: theme.palette.pollsBarBackground,
-            borderRadius: '4px',
+            borderRadius: '12px',
             height: '6px',
             maxWidth: '160px',
             width: '158px',
@@ -58,7 +58,7 @@ const useStyles = makeStyles()(theme => {
         },
         bar: {
             height: '6px',
-            borderRadius: '4px',
+            borderRadius: '12px',
             backgroundColor: theme.palette.action01
         },
         voteCount: {

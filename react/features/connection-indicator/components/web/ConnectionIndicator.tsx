@@ -160,7 +160,7 @@ const styles = (theme: Theme) => {
 
         icon: {
             padding: '4px',
-            borderRadius: '4px',
+            borderRadius: '12px',
 
             '&.status-high': {
                 backgroundColor: theme.palette.success01

@@ -55,7 +55,7 @@ const useStyles = makeStyles()(theme => {
 
             '&:focus': {
                 outline: `1px solid ${theme.palette.action01}`,
-                borderRadius: '4px'
+                borderRadius: '12px'
             }
         },
 

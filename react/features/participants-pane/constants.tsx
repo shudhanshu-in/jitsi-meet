@@ -72,7 +72,7 @@ export const AudioStateIcons = {
     ),
     [MEDIA_STATE.FORCE_MUTED]: (
         <Icon
-            color = '#E04757'
+            color = '#F87171'
             id = 'audioMuted'
             size = { 16 }
             src = { IconMicSlash } />
@@ -98,7 +98,7 @@ export const VideoStateIcons = {
     [MEDIA_STATE.DOMINANT_SPEAKER]: null,
     [MEDIA_STATE.FORCE_MUTED]: (
         <Icon
-            color = '#E04757'
+            color = '#F87171'
             id = 'videoMuted'
             size = { 16 }
             src = { IconVideoOff } />

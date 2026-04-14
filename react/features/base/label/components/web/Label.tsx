@@ -57,7 +57,7 @@ const useStyles = makeStyles()(theme => {
             ...theme.typography.labelRegular,
             alignItems: 'center',
             background: theme.palette.labelBackground,
-            borderRadius: '4px',
+            borderRadius: '12px',
             color: theme.palette.labelText,
             display: 'flex',
             margin: '0 2px',

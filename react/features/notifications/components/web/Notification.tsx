@@ -44,7 +44,7 @@ const useStyles = makeStyles()((theme: Theme) => {
             display: 'flex',
             position: 'relative' as const,
             borderRadius: `${theme.shape.borderRadius}px`,
-            boxShadow: '0px 6px 20px rgba(0, 0, 0, 0.25)',
+            boxShadow: '0px 8px 32px rgba(0, 0, 0, 0.4)',
             marginBottom: theme.spacing(2),
 
             '&:last-of-type': {
@@ -82,7 +82,7 @@ const useStyles = makeStyles()((theme: Theme) => {
             position: 'absolute' as const,
             left: 0,
             top: '8px',
-            borderRadius: '4px',
+            borderRadius: '12px',
 
             '&.normal': {
                 backgroundColor: theme.palette.notificationNormalIcon

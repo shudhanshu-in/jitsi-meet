@@ -11,7 +11,7 @@ const useStyles = makeStyles()((theme: Theme) => {
         emojiGrid: {
             display: 'flex',
             flexDirection: 'row',
-            borderRadius: '4px',
+            borderRadius: '12px',
             backgroundColor: theme.palette.chatInputBackground
         },
 

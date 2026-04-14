@@ -38,7 +38,7 @@ const useStyles = makeStyles()(theme => {
             padding: '4px',
             zIndex: 3,
             display: 'inline-block',
-            borderRadius: '4px',
+            borderRadius: '12px',
             boxSizing: 'border-box'
         }
     };

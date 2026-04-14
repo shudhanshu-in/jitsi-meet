@@ -12,7 +12,7 @@ const useStyles = makeStyles()(theme => {
             ...theme.typography.bodyLongRegular,
             color: theme.palette.conferenceSubjectText,
             padding: '2px 16px',
-            backgroundColor: 'rgba(0, 0, 0, 0.6)',
+            backgroundColor: 'rgba(15, 23, 42, 0.7)',
             maxWidth: '324px',
             boxSizing: 'border-box',
             height: '28px',

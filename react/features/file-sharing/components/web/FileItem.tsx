@@ -181,7 +181,7 @@ const useStyles = makeStyles()(theme => {
 
             '&:focus-visible': {
                 outline: `2px solid ${theme.palette.action01}`,
-                borderRadius: '4px'
+                borderRadius: '12px'
             }
         },
 

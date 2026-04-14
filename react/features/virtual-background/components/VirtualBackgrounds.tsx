@@ -102,7 +102,7 @@ const useStyles = makeStyles()(theme => {
         thumbnail: {
             height: '54px',
             width: '100%',
-            borderRadius: '4px',
+            borderRadius: '12px',
             boxSizing: 'border-box',
             display: 'flex',
             alignItems: 'center',

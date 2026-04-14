@@ -10,8 +10,8 @@ const useStyles = makeStyles()(theme => {
 
     return {
         badge: {
-            background: 'rgba(0, 0, 0, 0.6)',
-            borderRadius: '3px',
+            background: 'rgba(15, 23, 42, 0.7)',
+            borderRadius: '8px',
             color: text01,
             maxWidth: '50%',
             overflow: 'hidden',

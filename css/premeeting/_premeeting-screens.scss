@@ -1,8 +1,8 @@
 .premeeting-screen {
     .action-btn {
-        border-radius: 6px;
+        border-radius: 12px;
         box-sizing: border-box;
-        color: #fff;
+        color: #F8FAFC;
         cursor: pointer;
         display: inline-block;
         font-size: 0.875rem;
@@ -13,15 +13,25 @@
         position: relative;
         text-align: center;
         width: 100%;
+        transition: background-color 0.2s ease, transform 0.1s ease;
 
         &.primary {
-            background: #0376DA;
-            border: 1px solid #0376DA;
+            background: #06B6D4;
+            border: 1px solid #06B6D4;
+
+            &:hover {
+                background: #22D3EE;
+                border-color: #22D3EE;
+            }
         }
 
         &.secondary {
-            background: #3D3D3D;
+            background: #334155;
             border: 1px solid transparent;
+
+            &:hover {
+                background: #475569;
+            }
         }
 
         &.text {
@@ -32,20 +42,20 @@
         }
 
         &.disabled {
-            background: #5E6D7A;
-            border: 1px solid #5E6D7A;
-            color: #AFB6BC;
+            background: #475569;
+            border: 1px solid #475569;
+            color: #94A3B8;
             cursor: initial;
 
             .icon {
                 & > svg {
-                    fill: #AFB6BC;
+                    fill: #94A3B8;
                 }
             }
         }
 
         .options {
-            border-radius: 3px;
+            border-radius: 8px;
             align-items: center;
             display: flex;
             height: 100%;
@@ -56,7 +66,7 @@
             width: 36px;
 
             &:hover {
-                background-color: #0262B6;
+                background-color: #0891B2;
             }
 
             svg {
@@ -106,16 +116,18 @@
 }
 
 #preview {
-    background: var(--prejoin-preview-background, #040404);
+    background: var(--prejoin-preview-background, #0F172A);
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
 
     .avatar {
         text {
-            fill: white;
+            fill: #F8FAFC;
         }
     }
 

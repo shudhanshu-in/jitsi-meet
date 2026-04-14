@@ -149,7 +149,7 @@ export const commonStyles = (theme: Theme) => {
 
             '.prejoin-dialog-label-num': {
                 background: '#2b3b4b',
-                border: '1px solid #A4B8D1',
+                border: '1px solid rgba(100, 116, 139, 0.3)',
                 borderRadius: '50%',
                 color: '#fff',
                 display: 'inline-block',
@@ -160,7 +160,7 @@ export const commonStyles = (theme: Theme) => {
 
             '.prejoin-dialog-container': {
                 alignItems: 'center',
-                background: 'rgba(0,0,0,0.6)',
+                background: 'rgba(15, 23, 42, 0.7)',
                 display: 'flex',
                 height: '100dvh',
                 justifyContent: 'center',

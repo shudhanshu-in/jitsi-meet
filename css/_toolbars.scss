@@ -2,7 +2,7 @@
  * Round badge.
  */
 .badge-round {
-    background-color: var(--toolbar-badge-background, #165ECC);
+    background-color: var(--toolbar-badge-background, #06B6D4);
     border-radius: 50%;
     box-sizing: border-box;
     color: #FFFFFF;
@@ -84,7 +84,7 @@
     margin: 0 auto;
     max-width: 100%;
     pointer-events: all;
-    border-radius: 6px;
+    border-radius: 16px;
 
     .toolbox-content-items {
         @include ltr;
@@ -95,24 +95,29 @@
     content: '';
     background: var(--toolbox-background-color, $newToolbarBackgroundColor);
     padding-bottom: env(safe-area-inset-bottom, 0);
+    border-radius: 0 0 16px 16px;
 }
 
 .overflow-menu-hr {
-    border-top: 1px solid #4C4D50;
+    border-top: 1px solid rgba(100, 116, 139, 0.3);
     border-bottom: 0;
     margin: 8px 0;
 }
 
 div.hangup-button {
-    background-color: #CB2233;
+    background-color: #EF4444;
+    border-radius: 50%;
+    transition: background-color 0.2s ease, transform 0.15s ease;
 
     @media (hover: hover) and (pointer: fine) {
         &:hover {
-            background-color: #E04757;
+            background-color: #F87171;
+            transform: scale(1.05);
         }
 
         &:active {
-            background-color: #A21B29;
+            background-color: #DC2626;
+            transform: scale(0.95);
         }
     }
 
@@ -122,15 +127,17 @@ div.hangup-button {
 }
 
 div.hangup-menu-button {
-    background-color: #CB2233;
+    background-color: #EF4444;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
 
     @media (hover: hover) and (pointer: fine) {
         &:hover {
-            background-color: #E04757;
+            background-color: #F87171;
         }
 
         &:active {
-            background-color: #A21B29;
+            background-color: #DC2626;
         }
     }
 
@@ -167,7 +174,7 @@ div.hangup-menu-button {
         background: none;
 
         &:hover {
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(248, 250, 252, 0.1);
         }
     }
 

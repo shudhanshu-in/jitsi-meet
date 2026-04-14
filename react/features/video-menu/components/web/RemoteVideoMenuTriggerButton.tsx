@@ -102,7 +102,7 @@ const useStyles = makeStyles()(() => {
     return {
         triggerButton: {
             padding: '3px !important',
-            borderRadius: '4px',
+            borderRadius: '12px',
 
             '& svg': {
                 width: '18px',

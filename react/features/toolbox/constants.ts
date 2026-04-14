@@ -137,7 +137,7 @@ export const ZINDEX_DIALOG_PORTAL = 302;
 /**
  * Color for spinner displayed in the toolbar.
  */
-export const SPINNER_COLOR = '#929292';
+export const SPINNER_COLOR = '#64748B';
 
 /**
  * The list of all possible UI buttons.

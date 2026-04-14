@@ -49,7 +49,7 @@ const useStyles = makeStyles()(theme => {
             backgroundColor: theme.palette.chatInputBackground,
             color: 'white',
             padding: '4px 8px',
-            borderRadius: '4px',
+            borderRadius: '12px',
             fontSize: '0.75rem',
             zIndex: 1000,
             opacity: 0,

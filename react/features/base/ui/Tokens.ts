@@ -355,7 +355,7 @@ export const colorMap = {
     dialInSecondaryText: 'text02',           // Dial-in summary secondary text
 
     // Reactions
-    reactionsMenuBackground: '#242528', // Reactions menu background
+    reactionsMenuBackground: '#1E293B', // Reactions menu background
     reactionsMenuBorder: 'ui02',             // Reactions menu border
     reactionsMenuButtonToggled: 'surface01', // Reactions menu button toggled state background
     reactionsMenuBoxShadow1: 'ui09',         // Reactions menu box shadow primary
@@ -412,7 +412,7 @@ export const colorMap = {
     fileSharingItemBorder: 'ui02',           // File sharing item hover/border
 
     // Gifs
-    gifsBackground: '#242528',                  // GIFs panel background
+    gifsBackground: '#1E293B',                  // GIFs panel background
     gifsText: 'text01',                      // GIFs panel text
 
     // Whiteboard
@@ -552,9 +552,9 @@ export const font = {
 };
 
 export const shape = {
-    borderRadius: 6,
+    borderRadius: 12,
     circleRadius: 50,
-    boxShadow: 'inset 0px -1px 0px rgba(255, 255, 255, 0.15)'
+    boxShadow: 'inset 0px -1px 0px rgba(255, 255, 255, 0.08)'
 };
 
 export const spacing = [ 0, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128 ];
